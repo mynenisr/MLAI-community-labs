@@ -31,7 +31,7 @@ SECRET_KEY = "django-insecure-qulmyq%f838mx6-=4rc7_bcmdzukewab+(&6ckp5!+dwtsc2=1
 DEBUG = True
 
 
-ALLOWED_HOSTS = [ '127.0.0.1']
+ALLOWED_HOSTS = [ '127.0.0.1','solar-ai-assistant-chatbot.onrender.com','localhost']
 
 
 # Application definition
