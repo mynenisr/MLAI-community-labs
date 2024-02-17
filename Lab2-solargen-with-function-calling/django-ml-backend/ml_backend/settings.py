@@ -88,7 +88,7 @@ WSGI_APPLICATION = "ml_backend.wsgi.application"
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://mlai-community-labs.vercel.app/",
+    "https://mlai-community-labs.vercel.app",
     "https://solar-ai-chatbot.onrender.com",
     "http://localhost:3000",
 ]
