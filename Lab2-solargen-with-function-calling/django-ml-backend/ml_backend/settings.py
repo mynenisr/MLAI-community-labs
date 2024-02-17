@@ -31,7 +31,7 @@ SECRET_KEY = "django-insecure-qulmyq%f838mx6-=4rc7_bcmdzukewab+(&6ckp5!+dwtsc2=1
 DEBUG = True
 
 
-ALLOWED_HOSTS = [ '127.0.0.1','solar-ai-assistant-chatbot.onrender.com','localhost']
+ALLOWED_HOSTS = [ '127.0.0.1','solar-ai-assistant-chatbot.onrender.com','localhost','solar-ai-chatbot.onrender.com']
 
 
 # Application definition
@@ -88,6 +88,8 @@ WSGI_APPLICATION = "ml_backend.wsgi.application"
 
 
 CORS_ALLOWED_ORIGINS = [
+    "https://mlai-community-labs.vercel.app/",
+    "https://solar-ai-chatbot.onrender.com",
     "http://localhost:3000",
 ]
 
